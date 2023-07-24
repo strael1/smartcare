@@ -1,0 +1,41 @@
+.dashboard__mobile {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.03) 0%, rgba(0, 0, 0, 0.03) 100%), var(--color-8, #FCFCFC);
+    padding: 39px 0;
+
+    .dashboard__mobile-container {
+        margin: auto;
+        width: $max-width-lg;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        align-items: center;
+
+        .dashboard__mobile-col-1 {
+            display: flex;
+            align-items: center;
+            column-gap: 16px;
+        }
+
+        .dashboard__mobile-col-2 {
+            display: flex;
+            align-items: center;
+            column-gap: 20px;
+
+            .dashboard__mobile-profile {
+                display: flex;
+                align-items: center;
+                column-gap: 12px;
+
+                .dashboard__mobile-drop-down {
+                    &::before {
+                        content: "";
+                        display: block;
+                        width: 16px;
+                        height: 16px;
+                        background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cmask id='mask0_186_614' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='16' height='16'%3E%3Crect width='16' height='16' fill='%23D9D9D9'/%3E%3C/mask%3E%3Cg mask='url(%23mask0_186_614)'%3E%3Cpath d='M8 10.25L4 6.25L4.93333 5.31667L8 8.38333L11.0667 5.31667L12 6.25L8 10.25Z' fill='%23181818'/%3E%3C/g%3E%3C/svg%3E%0A");
+                    }
+                }
+            }
+        }
+    }
+}

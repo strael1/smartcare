@@ -1,0 +1,13 @@
+.contents__mobile {
+    margin: auto;
+    width: $max-width-lg;
+    margin-top: 32px;
+    .contents__title {
+        color: #181818;
+        font-family: 'specter', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 125%; 
+    }
+}

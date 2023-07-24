@@ -1,0 +1,29 @@
+.footer {
+    text-align: center;
+    margin: auto;
+    width: $max-width-xg;
+    @media (min-width: 1025px) {
+        display: none;
+    }
+
+    .footer__description {
+        color:#DBD4D4;
+        font-family: 'specter',sans-serif;
+        font-size: 12.5px;
+        font-style: normal;
+        font-weight: $weight-2;
+        line-height: 150%; 
+        letter-spacing: 0.625px;
+    
+        a {
+            color: $primary;
+            font-family: 'specter',sans-serif;
+            font-size: 12.5px;
+            font-style: normal;
+            font-weight: $weight-4;
+            line-height: 150%;
+            letter-spacing: 0.625px;
+            text-decoration-line: underline;
+        }
+    }
+}

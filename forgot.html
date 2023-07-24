@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Smart Care</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+    <section class="login__desktop">
+        <div class="login__col-left">
+            <img src="./assets/images/login__banner.webp" alt="Banner do login" />
+            <img class="login__desktop-logo" src="./assets/icons/logo.svg" alt="Logo marca desktop" />
+            <span class="login__desktop-footer">© Copyright Smart Care 2023. Todos os direitos reservados.<a href="#">Termos de Uso. Políticas de Privacidade.</a></span>
+        </div>
+        <div class="login__col-right">
+            <div>
+                <div class="login__mobile-title">
+                    <h1 class="login__mobile-title-content">Recuperar senha</h1>
+                    <p class="login__mobile-title-description">Digite seu e-mail para recuperar sua senha</p>
+                </div>
+                <form action="newpassword.html">
+                    <div class="form-control form-control-position">
+                        <label class="form-control-email" for="">E-mail*</label>
+                        <input class="form-control-email" type="email" name="email" placeholder="Insira seu e-mail cadastrado" />
+                    </div>
+    
+                    <div class="form-control-back-button-forgot">
+                        <button type="submit" name="sendData">Continuar</button>
+                        <div>
+                            <a href="login.html">Voltar</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="login__mobile">
+        <div class="login__mobile-logo"><img src="./assets/icons/logo.svg" alt="Logo Marca"/></div>
+        <div>
+            <div class="login__mobile-title">
+                <h1 class="login__mobile-title-content">Recuperar senha</h1>
+                <p class="login__mobile-title-description">Digite seu e-mail para recuperar sua senha </p>
+            </div>
+            <form action="">
+                <div class="form-control">
+                    <label for="">E-mail*</label>
+                    <input type="email" name="email" placeholder="Insira seu e-mail cadastrado" />
+                </div>
+                <div class="form-control">
+                    <label for="">Senha*</label>
+                    <input type="password" name="password" placeholder="************" />
+                </div>
+                <div class="form-control-remember-forgot">
+                    <div>
+                        <input type="checkbox">
+                        <label for="">Lembre-se de mim</label>
+                    </div>
+                    <div>
+                        <a href="#">Esqueci minha senha</a>
+                    </div>
+                </div>
+                <div>
+                    <button type="submit" name="sendData">Entrar</button>
+                </div>
+            </form>
+        </div>
+        <div class="login__register">
+            <p>Ainda não tem uma conta? <a href="">Cadastre-se</a></p>
+        </div>
+    </section>  
+
+    <section class="talk">
+        <div class="talk__container">
+            <p class="talk__suporte">Suporte online</p>
+            <p class="talk__connect">Conectar</p>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <p class="footer__description ">© Copyright Smart Care 2023. Todos os direitos reservados.<a href="#">Termos de Uso. Políticas de Privacidade.</a></p>
+    </footer>
+</body>
+</html>

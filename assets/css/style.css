@@ -292,6 +292,51 @@ ul li {
   line-height: 125%;
   letter-spacing: 0.7px;
 }
+@media (max-width: 1024px) {
+  .login__mobile .form-forgot-password {
+    margin-bottom: 204px;
+  }
+}
+.login__mobile .form-forgot-password button {
+  margin-bottom: 32px;
+}
+.login__mobile .form-forgot-password .login__back {
+  display: flex;
+  justify-content: center;
+}
+.login__mobile .form-forgot-password .login__back a {
+  color: #18B09A;
+  font-family: "specter", sans-serif;
+  font-size: 12.5px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: 0.625px;
+  text-decoration-line: underline;
+}
+.login__mobile form .form-control-position {
+  position: relative;
+}
+.login__mobile form .form-control-email::after {
+  position: absolute;
+  top: 41px;
+  left: 11px;
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cmask id='mask0_274_485' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='20' height='20'%3E%3Crect width='20' height='20' fill='%23D9D9D9'/%3E%3C/mask%3E%3Cg mask='url(%23mask0_274_485)'%3E%3Cpath d='M3.33335 16.6667C2.87502 16.6667 2.48266 16.5035 2.15627 16.1771C1.82988 15.8507 1.66669 15.4584 1.66669 15V5.00004C1.66669 4.54171 1.82988 4.14935 2.15627 3.82296C2.48266 3.49657 2.87502 3.33337 3.33335 3.33337H16.6667C17.125 3.33337 17.5174 3.49657 17.8438 3.82296C18.1702 4.14935 18.3334 4.54171 18.3334 5.00004V15C18.3334 15.4584 18.1702 15.8507 17.8438 16.1771C17.5174 16.5035 17.125 16.6667 16.6667 16.6667H3.33335ZM10 10.8334L16.6667 6.66671V5.00004L10 9.16671L3.33335 5.00004V6.66671L10 10.8334Z' fill='%2318B09A'/%3E%3C/g%3E%3C/svg%3E%0A");
+}
+.login__mobile form .form-control-password::after {
+  position: absolute;
+  top: 41px;
+  left: 11px;
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cmask id='mask0_274_469' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='20' height='20'%3E%3Crect width='20' height='20' fill='%23D9D9D9'/%3E%3C/mask%3E%3Cg mask='url(%23mask0_274_469)'%3E%3Cpath d='M1.66665 15.8333V14.1667H18.3333V15.8333H1.66665ZM2.62498 10.7917L1.54165 10.1667L2.24998 8.91668H0.833313V7.66668H2.24998L1.54165 6.45834L2.62498 5.83334L3.33331 7.04168L4.04165 5.83334L5.12498 6.45834L4.41665 7.66668H5.83331V8.91668H4.41665L5.12498 10.1667L4.04165 10.7917L3.33331 9.54168L2.62498 10.7917ZM9.29165 10.7917L8.20831 10.1667L8.91665 8.91668H7.49998V7.66668H8.91665L8.20831 6.45834L9.29165 5.83334L9.99998 7.04168L10.7083 5.83334L11.7916 6.45834L11.0833 7.66668H12.5V8.91668H11.0833L11.7916 10.1667L10.7083 10.7917L9.99998 9.54168L9.29165 10.7917ZM15.9583 10.7917L14.875 10.1667L15.5833 8.91668H14.1666V7.66668H15.5833L14.875 6.45834L15.9583 5.83334L16.6666 7.04168L17.375 5.83334L18.4583 6.45834L17.75 7.66668H19.1666V8.91668H17.75L18.4583 10.1667L17.375 10.7917L16.6666 9.54168L15.9583 10.7917Z' fill='%2318B09A'/%3E%3C/g%3E%3C/svg%3E%0A");
+}
 .login__mobile form .form-control label {
   color: #DBD4D4;
   font-family: "specter", sans-serif;
@@ -305,7 +350,7 @@ ul li {
   display: flex;
   width: 382px;
   height: 50px;
-  padding: 0px 24px;
+  padding: 0px 42px;
   justify-content: space-between;
   align-items: center;
   flex-shrink: 0;

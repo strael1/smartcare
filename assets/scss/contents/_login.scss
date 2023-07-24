@@ -282,6 +282,15 @@
         justify-content: center;
     }
 
+    .form-forgot {
+        margin-bottom: 204px;
+        button {
+            @media (max-width: $tablet) {
+                margin-bottom: 32px;
+            }
+        }
+    }
+
     .login__mobile-title {
         margin-bottom: 64px;
         .login__mobile-title-content {
@@ -336,6 +345,21 @@
     form {
         .form-control-position {
             position: relative;
+        }
+
+        .form-control-back {
+            display: flex;
+            justify-content: center;
+            a {
+                color: $primary;
+                font-family: 'specter',sans-serif;
+                font-size: 12.5px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 125%; /* 15.625px */
+                letter-spacing: 0.625px;
+                text-decoration-line: underline;
+            }
         }
 
         .form-control-email {

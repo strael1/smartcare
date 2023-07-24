@@ -269,6 +269,14 @@ ul li {
   display: flex;
   justify-content: center;
 }
+.login__mobile .form-forgot {
+  margin-bottom: 204px;
+}
+@media (max-width: 1024px) {
+  .login__mobile .form-forgot button {
+    margin-bottom: 32px;
+  }
+}
 .login__mobile .login__mobile-title {
   margin-bottom: 64px;
 }
@@ -316,6 +324,20 @@ ul li {
 }
 .login__mobile form .form-control-position {
   position: relative;
+}
+.login__mobile form .form-control-back {
+  display: flex;
+  justify-content: center;
+}
+.login__mobile form .form-control-back a {
+  color: #18B09A;
+  font-family: "specter", sans-serif;
+  font-size: 12.5px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 15.625px */
+  letter-spacing: 0.625px;
+  text-decoration-line: underline;
 }
 .login__mobile form .form-control-email::after {
   position: absolute;

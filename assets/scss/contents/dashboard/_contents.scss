@@ -10,4 +10,20 @@
         font-weight: 700;
         line-height: 125%; 
     }
+
+    .contents__button {
+        padding: 20px;
+        background-color: $primary;
+        border: solid 1px $primary;
+        border-radius: 5px;
+        color: $white;
+        text-align: center;
+        font-family: 'specter', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: $weight-2;
+        line-height: 125%;
+        letter-spacing: 0.7px;
+        
+    }
 }

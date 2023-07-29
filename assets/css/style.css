@@ -638,5 +638,19 @@ ul li {
   font-weight: 700;
   line-height: 125%;
 }
+.contents__mobile .contents__button {
+  padding: 20px;
+  background-color: #18B09A;
+  border: solid 1px #18B09A;
+  border-radius: 5px;
+  color: #FEF9EF;
+  text-align: center;
+  font-family: "specter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+  letter-spacing: 0.7px;
+}
 
 /*# sourceMappingURL=style.css.map */

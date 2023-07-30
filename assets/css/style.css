@@ -792,4 +792,109 @@ ul li {
   align-self: center;
 }
 
+.register__modal {
+  margin: auto;
+  width: 315px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #FEF9EF;
+  z-index: 3;
+  padding: 18px;
+}
+.register__modal .register__modal-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.register__modal .register__modal-title .title {
+  color: #181818;
+  font-family: "specter", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+.register__modal .register__model-form .form-control-send button {
+  border-radius: 10px;
+  background: #18B09A;
+  padding: 16px 20px;
+  padding-bottom: 10px;
+  width: 100%;
+  color: #FEF9EF;
+  text-align: center;
+  font-family: "specter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+  letter-spacing: 0.8px;
+  border: solid 1px #18B09A;
+}
+.register__modal .register__model-form .form-control .register__model-required {
+  color: #18B09A;
+  font-family: "specter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+  letter-spacing: 0.7px;
+}
+.register__modal .register__model-form .form-control label {
+  color: rgba(24, 24, 24, 0.4);
+  font-family: "specter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: 0.7px;
+}
+.register__modal .register__model-form .form-control input {
+  padding: 13px 20px;
+  height: 50px;
+  outline: none;
+  border-radius: 10px;
+  width: 100%;
+  border: 1px solid #18B09A;
+  margin-bottom: 24px;
+  margin-top: 8px;
+  color: rgba(24, 24, 24, 0.4);
+  font-family: "specter", sans-serif;
+  font-size: 12.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 0.625px;
+}
+.register__modal .register__model-form .form-control select {
+  padding: 16px 20px;
+  font-size: 16px;
+  color: #181818;
+  outline: none;
+  border-radius: 10px;
+  width: 100%;
+  border: 1px solid #18B09A;
+  margin-bottom: 24px;
+  margin-top: 8px;
+  border-radius: 10px;
+  border: 1px solid #18B09A;
+  color: rgba(24, 24, 24, 0.4);
+  font-family: "specter", sans-serif;
+  font-size: 12.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 0.625px;
+}
+
+.register__modal-backdrop-green {
+  background-color: rgba(24, 176, 154, 0.9098039216);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+}
+
 /*# sourceMappingURL=style.css.map */

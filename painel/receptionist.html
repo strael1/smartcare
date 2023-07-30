@@ -152,7 +152,7 @@
             </ul>
         </nav>
 
-        <!-- PAGINATION -->
+        <!-- PAGINATION MOBILE -->
         <div class="pagination">
             <ul class="pagination__list">
                 <li class="pagination__list-item active"><a class="pagination__list-item-link" href="">1</a></li>
@@ -163,5 +163,62 @@
             <span class="pagination__next"><img src="../assets/icons/painel/actions/next.svg" alt="Next button" /></span>
         </div>
     </main>
+
+
+    <!-- Modal cadastro recepcionista Mobile Only -->
+    <div class="register__modal-backdrop-green"></div>
+    <aside class="register__modal">
+        <div class="register__modal-title">
+            <h1 class="title">Cadastrar <br>recepcionista</h1>
+            <span class="close__bar"><img src="../assets/icons/painel/close.svg" alt="Fechar a barra de navegação" /></span>
+        </div>
+        <form method="POST" class="register__model-form" enctype="multipart/form-data">
+            <div class="form-control">
+                <label>Nome<span class="register__model-required">*</span></label>
+                <input type="text" name="nome" placeholder="Nome completo" />
+            </div>
+            <div class="form-control">
+                <label>CPF<span class="register__model-required">*</span></label>
+                <input type="text" name="cpf" placeholder="000.000.000-00" />
+            </div>
+            <div class="form-control">
+                <label>Telefone<span class="register__model-required">*</span></label>
+                <input type="tel" name="telefone" placeholder="(00) 0000-0000" />
+            </div>
+            <div class="form-control">
+                <label>Senha<span class="register__model-required">*</span></label>
+                <input type="password" name="senha" placeholder="********" />
+            </div>
+            <div class="form-control">
+                <label>Repita a senha<span class="register__model-required">*</span></label>
+                <input type="password" name="confirmar_senha" placeholder="********" />
+            </div>
+            <div class="form-control">
+                <label>Foto de perfil<span class="register__model-required">*</span></label>
+                <input type="file" name="files[]" />
+            </div>
+            <div class="form-control">
+                <label>Unidade<span class="register__model-required">*</span></label>
+                <select name="unidade" id="unidade">
+                    <option>Selecionar unidade</option>
+                    <option value="centro">Centro</option>
+                </select>
+            </div>
+            <div class="form-control">
+                <label>Turno de Trabalho<span class="register__model-required">*</span></label>
+                <select name="turno" id="turno">
+                    <option>Selecionar o Turno</option>
+                    <option value="centro">Manhã</option>
+                </select>
+            </div>
+            <div class="form-control-send">
+                <button type="submit" name="btnRegisterRecep">Salvar e continuar</button>
+            </div>
+        </form>
+    </aside>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="../assets/js/app.js"></script>
 </body>
 </html>

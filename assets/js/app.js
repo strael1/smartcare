@@ -1,10 +1,27 @@
 const plugin = {
     init(){
-        this.openClose();
+        this.openCloseRegister();
+        this.openCloseFilter();
     },
     
+    // Open and close the filter section
+    openCloseFilter(){
+        $('.register__modal').hide();
+        $('.filter__mobile-receptionist').hide();
+
+        $('.filter__mobile .filter__actions .filter__one').on('click', () => {
+            $('.register__modal-backdrop-green').fadeIn(600);
+            $('.filter__mobile-receptionist').fadeIn(600);
+        })
+
+        $('.filter__mobile-receptionist .filter__close-bar .filter__close').on('click', () => {
+            $('.register__modal-backdrop-green').fadeOut(600);
+            $('.filter__mobile-receptionist').fadeOut(600);
+        })
+    },  
+
     // Open and close register receptionist
-    openClose(){
+    openCloseRegister(){
         $('.register__modal').hide();
         $('.register__modal-backdrop-green').hide();
 

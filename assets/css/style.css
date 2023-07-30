@@ -598,6 +598,9 @@ ul li {
   display: flex;
   column-gap: 16px;
 }
+.filter__mobile .filter__container .filter__actions .filter__once {
+  cursor: pointer;
+}
 .filter__mobile .filter__search {
   color: var(--color-6, #181818);
   font-family: "specter", sans-serif;
@@ -674,6 +677,7 @@ ul li {
   column-gap: 2px;
   white-space: nowrap;
   width: fit-content;
+  cursor: pointer;
 }
 .contents__mobile .contents__button::before {
   content: "";

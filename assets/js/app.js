@@ -2,6 +2,7 @@ const plugin = {
     init(){
         this.openCloseRegister();
         this.openCloseFilter();
+        this.openCloseUserInfo();
     },
     
     // Open and close the filter section
@@ -35,6 +36,21 @@ const plugin = {
         $('.register__modal .register__modal-title .close__bar').on('click', () => {
             $('.register__modal').fadeOut(600);
             $('.register__modal-backdrop-green').fadeOut(600);
+        })
+    },
+
+    openCloseUserInfo(){
+        $('.info__user').hide();
+        $('.register__modal-backdrop-green').hide();
+
+        $('.table__open-link').on('click', () => {
+            $('.register__modal-backdrop-green').fadeIn(600);
+            $('.info__user').fadeIn(600);
+        })
+
+        $('.info__user-close-bar .info__user-close').on('click', () => {
+            $('.register__modal-backdrop-green').fadeOut(600);
+            $('.info__user').fadeOut(600);
         })
     }
 }

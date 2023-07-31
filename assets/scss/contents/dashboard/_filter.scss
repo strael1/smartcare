@@ -6,7 +6,8 @@
     overflow-y: auto;
     top: 0;
     right: 0;
-    background-color: $white;
+    border-left: 1px solid #FCFCFC;
+    background: var(--color-8, #FCFCFC);
     z-index: 3;
     padding: 18px;
     .filter__close-bar {

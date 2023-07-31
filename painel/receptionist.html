@@ -69,8 +69,8 @@
                         </div>
                     </div>
                     <div class="table__mobile-list-link">
-                        <a href="#"><img src="../assets/icons/painel/actions/link.svg" alt=""></a>
-                        <a href="#"><img src="../assets/icons/painel/actions/edit.svg" alt=""></a>
+                        <a class="table__open-link" href="javascript:void(0)"><img src="../assets/icons/painel/actions/link.svg" alt=""></a>
+                        <a href=""><img src="../assets/icons/painel/actions/edit.svg" alt=""></a>
                         <a href="#"><img src="../assets/icons/painel/actions/delete.svg" alt=""></a>
                     </div>
                 </li>
@@ -87,26 +87,7 @@
                         </div>
                     </div>
                     <div class="table__mobile-list-link">
-                        <a href="#"><img src="../assets/icons/painel/actions/link.svg" alt=""></a>
-                        <a href="#"><img src="../assets/icons/painel/actions/edit.svg" alt=""></a>
-                        <a href="#"><img src="../assets/icons/painel/actions/delete.svg" alt=""></a>
-                    </div>
-                </li>
-
-                <li class="table__mobile-list-item">
-                    <div class="table__mobile-list-item-contents">
-                        <input type="checkbox" name="recepcionista" />
-                        <img src="../assets/icons/painel/profile.png" alt="Perfil do usuário cadastrado" />
-                        <div class="table__mobile-list-content">
-                            <h4>Alexsandra Silva</h4>
-                            <div class="table__mobile-text-content">
-                                <p>Tarde</p>
-                                <span>Ativo</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="table__mobile-list-link">
-                        <a href="#"><img src="../assets/icons/painel/actions/link.svg" alt=""></a>
+                        <a class="table__open-link" href="javascript:void(0)"><img src="../assets/icons/painel/actions/link.svg" alt=""></a>
                         <a href="#"><img src="../assets/icons/painel/actions/edit.svg" alt=""></a>
                         <a href="#"><img src="../assets/icons/painel/actions/delete.svg" alt=""></a>
                     </div>
@@ -125,7 +106,7 @@
                         </div>
                     </div>
                     <div class="table__mobile-list-link">
-                        <a href="#"><img src="../assets/icons/painel/actions/link.svg" alt=""></a>
+                        <a class="table__open-link" href="javascript:void(0)"><img src="../assets/icons/painel/actions/link.svg" alt=""></a>
                         <a href="#"><img src="../assets/icons/painel/actions/edit.svg" alt=""></a>
                         <a href="#"><img src="../assets/icons/painel/actions/delete.svg" alt=""></a>
                     </div>
@@ -144,7 +125,26 @@
                         </div>
                     </div>
                     <div class="table__mobile-list-link">
-                        <a href="#"><img src="../assets/icons/painel/actions/link.svg" alt=""></a>
+                        <a class="table__open-link" href="javascript:void(0)"><img src="../assets/icons/painel/actions/link.svg" alt=""></a>
+                        <a href="#"><img src="../assets/icons/painel/actions/edit.svg" alt=""></a>
+                        <a href="#"><img src="../assets/icons/painel/actions/delete.svg" alt=""></a>
+                    </div>
+                </li>
+
+                <li class="table__mobile-list-item">
+                    <div class="table__mobile-list-item-contents">
+                        <input type="checkbox" name="recepcionista" />
+                        <img src="../assets/icons/painel/profile.png" alt="Perfil do usuário cadastrado" />
+                        <div class="table__mobile-list-content">
+                            <h4>Alexsandra Silva</h4>
+                            <div class="table__mobile-text-content">
+                                <p>Tarde</p>
+                                <span>Ativo</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__mobile-list-link">
+                        <a class="table__open-link" href="javascript:void(0)"><img src="../assets/icons/painel/actions/link.svg" alt=""></a>
                         <a href="#"><img src="../assets/icons/painel/actions/edit.svg" alt=""></a>
                         <a href="#"><img src="../assets/icons/painel/actions/delete.svg" alt=""></a>
                     </div>
@@ -269,6 +269,65 @@
             <div class="content-4">
                 <input type="checkbox">
                 <label for="">Madrugada</label>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info User MOBILE -->
+    <section class="info__user">
+        <div class="info__user-close-bar">
+            <span class="info__user-close"><img src="../assets/icons/painel/close.svg" alt="Fecha o menu bar da informação do usuário" /></span>
+        </div>
+        <div class="info__user-initial-description">
+            <img src="../assets/icons/painel/profile-avatar.png" alt="Perfil do usuário" />
+            <div class="info__user-initial-box">
+                <h6>Alexsandra Silva</h6>
+                <p>Centro - Tarde</p>
+                <p>Ativo</p>
+            </div>
+        </div>
+        <div class="info__user-personal">
+            <h6>Informações pessoais</h6>
+            <div>
+                <p class="info__user-first">Nome completo:</p>
+                <p class="info__user-second">Alexsandra Silva</p>
+            </div>
+            <div>
+                <p class="info__user-first">CPF:</p>
+                <p class="info__user-second">000.000.000-00</p>
+            </div>
+            <div>
+                <p class="info__user-first">Telefone:</p>
+                <p class="info__user-second">(11) 9999-9999</p>
+            </div>
+            <div>
+                <p class="info__user-first">E-mail:</p>
+                <p class="info__user-second">alexsandra@gmail.com</p>
+            </div>
+            <div>
+                <p class="info__user-first">Senha:</p>
+                <p class="info__user-second">**********</p>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="info__user-professional">
+            <h6>Informações profissionais</h6>
+            <div>
+                <p class="info__user-first">Unidade:</p>
+                <p class="info__user-second">Centro</p>
+            </div>
+            <div>
+                <p class="info__user-first">Turno de Trabalho:</p>
+                <p class="info__user-second">Manhã</p>
+            </div>
+            <div>
+                <p class="info__user-first">Cargo:</p>
+                <p class="info__user-second">Recepcionista</p>
+            </div>
+            <div>
+                <p class="info__user-first">Usuário desde:</p>
+                <p class="info__user-second">26/07/2023</p>
             </div>
         </div>
     </section>
